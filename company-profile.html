@@ -1,75 +1,271 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SK Electricals – कंपनी प्रोफ़ाइल</title>
-    <meta name="description" content="SK Electricals के संस्थापक श्री शैलेंद्र गुप्ता और सर्विस इंजीनियर आदित्य चौधरी (गोलू) के बारे में जानें। हमारी टीम महाराजगंज में विश्वसनीय इलेक्ट्रॉनिक्स सेवा प्रदान करती है।" />
-    <meta name="keywords" content="SK Electricals team, Shailendra Gupta owner, Aditya Chaudhary service engineer, electronics team Maharajganj" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>कंपनी प्रोफ़ाइल — श्री शैलेंद्र गुप्ता एवं टीम | SK Electricals</title>
+    <meta name="description" content="SK Electricals के संस्थापक श्री शैलेंद्र गुप्ता और सर्विस इंजीनियर आदित्य चौधरी (गोलू) के बारे में जानें। महराजगंज जिले में 25+ वर्षों की विश्वसनीय इलेक्ट्रॉनिक्स व इन्वर्टर सेवा।" />
+    <meta name="keywords" content="SK Electricals team, Shailendra Gupta owner, Aditya Chaudhary service engineer, electronics team Maharajganj, Siswa Bazar electronics shop" />
     <link rel="canonical" href="https://maharajganjelectronics.site/company-profile.html" />
+
+    <!-- Google Fonts & Stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header class="site-header">
+
+    <!-- TOP NOTIFICATION BAR -->
+    <aside class="topbar" aria-label="Quick store notice and contact">
+      <div class="container topbar-inner">
+        <div class="top-status">
+          <span class="status-dot"></span>
+          <span>दुकान खुली है: सुबह 9:30 – रात 8:00 (सोम–शनि)</span>
+        </div>
+        <div class="top-location">
+          📍 श्री राम जानकी मंदिर रोड, सिसवा बाज़ार, महराजगंज
+        </div>
+        <div class="top-actions">
+          <div class="top-contact">
+            <a href="tel:+919935743755">📞 +91 99357 43755</a>
+            <span style="opacity:0.4;">|</span>
+            <a href="tel:+918737000085">+91 87370 00085</a>
+          </div>
+          <button class="lang-btn" aria-label="Toggle Language" title="Switch to English">English</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- STICKY SITE HEADER -->
+    <header class="site-header" id="site-header">
       <div class="container header-inner">
-        <h1 class="brand"><a href="index.html">SK Electricals</a></h1>
-        
-        <!-- Navigation is placed before actions for CSS sibling selectors if needed, but JS handles it. -->
-        <nav class="main-nav" aria-label="Main navigation">
-            <a href="index.html" data-i18n="nav_home">Home</a>
-            <a href="about.html" data-i18n="nav_about">About</a>
-            <a href="company-profile.html">Company Profile</a>
-            <a href="products.html" data-i18n="nav_products">Products</a>
-            <a href="services.html" data-i18n="nav_services">Services</a>
-            <a href="service-areas.html">Service Areas</a>
-            <a href="faq.html">FAQ</a>
-            <a href="contact.html" data-i18n="nav_contact">Contact</a>
-            <a href="tel:+919935743755" class="btn-call" data-i18n="cta_call">Call Now</a>
+        <a href="index.html" class="brand-link" aria-label="SK Electricals Home">
+          <div class="brand-emblem">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="brand-info">
+            <span class="brand-title">SK ELECTRICALS</span>
+            <span class="brand-sub">सिसवा बाज़ार · महराजगंज</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="inverter.html" class="nav-link">Inverters</a>
+          <a href="battery.html" class="nav-link">Batteries</a>
+          <a href="stabilizer.html" class="nav-link">Stabilizers</a>
+          <a href="weighing-scale.html" class="nav-link">Weighing Scales</a>
+          <a href="services.html" class="nav-link">Repairs & Services</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="contact.html" class="nav-link">Contact</a>
         </nav>
 
         <div class="header-actions">
-          <button class="lang-toggle" title="Switch Language"></button>
-          <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+          <a href="tel:+919935743755" class="btn-header-call" aria-label="Call store owner">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>कॉल करें</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Open mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </div>
     </header>
 
-    <main class="container">
-      <h2>कंपनी प्रोफ़ाइल (Our Team)</h2>
-
-      <section id="shailendra-gupta" class="animate" data-anim="fade-up">
-        <div class="product-row">
-          <img src="image/shailendra_gupta.webp" alt="श्री शैलेंद्र गुप्ता, Owner, SK Electricals" loading="lazy" decoding="async" width="600" height="600">
-          <div>
-            <h3>श्री शैलेंद्र गुप्ता</h3>
-            <h4>Owner, SK Electricals</h4>
-            <p>श्री शैलेंद्र गुप्ता जी ने SK Electricals की स्थापना सन 2000 में की थी। विद्युत इंस्टालेशन, रिपेयर और मेंटेनेंस के क्षेत्र में उनके गहरे अनुभव और तकनीकी ज्ञान ने कंपनी को मज़बूत आधार दिया। उनके प्रभावशाली नेतृत्व, समर्पण और निरंतर मेहनत के कारण SK Electricals आज ग्राहकों के बीच एक भरोसेमंद और सम्मानित नाम बन चुका है। शैलेंद्र जी हमेशा यह सुनिश्चित करते हैं कि हर ग्राहक को सुरक्षित, समय पर और उच्च गुणवत्ता वाली सेवा मिले, और इसी सोच के साथ वे कंपनी को लगातार आगे बढ़ा रहे हैं।</p>
-          </div>
+    <!-- MOBILE DRAWER & OVERLAY -->
+    <div class="mobile-drawer-overlay"></div>
+    <div class="mobile-drawer">
+      <div class="drawer-header">
+        <div class="brand-info">
+          <span class="brand-title" style="color:#ffffff;">SK ELECTRICALS</span>
+          <span class="brand-sub" style="color:var(--cyan-electric);">सिसवा बाज़ार, महराजगंज</span>
         </div>
-      </section>
+        <button class="drawer-close" aria-label="Close menu">&times;</button>
+      </div>
 
-      <section id="aditya-chaudhary" class="animate" data-anim="fade-up">
-        <div class="product-row">
-          <img src="image/aditya.webp" alt="आदित्य चौधरी (गोलू), Service Engineer, SK Electricals" loading="lazy" decoding="async" width="600" height="600">
-          <div>
-            <h3>आदित्य चौधरी (गोलू)</h3>
-            <h4>Service Engineer, SK Electricals</h4>
-            <p>आदित्य चौधरी जी SK Electricals के अत्यंत महत्वपूर्ण और सम्मानित सर्विस इंजीनियर हैं। वे बिजली से जुड़ी विभिन्न तकनीकी समस्याओं की सटीक पहचान करने, मशीनों की उच्च-स्तरीय सर्विसिंग करने और साइट पर प्रभावी समाधान उपलब्ध कराने में निपुण हैं। उनकी मेहनत, ईमानदारी और कार्य के प्रति समर्पण ने उन्हें न केवल कंपनी का विश्वसनीय स्तंभ बनाया है, बल्कि ग्राहकों के बीच भी उन्हें विशेष सम्मान दिलाया है। आदित्य जी अपनी शांत, जिम्मेदार और पेशेवर कार्यशैली से हर परिस्थिति में भरोसेमंद तकनीकी सहायता प्रदान करते हैं, और SK Electricals परिवार का एक अमूल्य हिस्सा हैं।</p>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-link">होम (Home)</a>
+        <a href="inverter.html" class="drawer-link">इन्वर्टर व यूपीएस</a>
+        <a href="battery.html" class="drawer-link">ट्यूबलर बैटरी</a>
+        <a href="stabilizer.html" class="drawer-link">स्टेबलाइजर</a>
+        <a href="weighing-scale.html" class="drawer-link">कांटा व तराजू</a>
+        <a href="services.html" class="drawer-link">रिपेयर व सर्विस</a>
+        <a href="company-profile.html" class="drawer-link active">कंपनी प्रोफ़ाइल</a>
+        <a href="contact.html" class="drawer-link">दुकान का पता</a>
+      </nav>
+
+      <div class="drawer-footer">
+        <a href="tel:+919935743755" class="btn btn-amber btn-sm">📞 Call +91 99357 43755</a>
+        <a href="https://wa.me/919935743755" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">💬 WhatsApp Store</a>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- PAGE HERO (LIGHT THEME) -->
+        <section class="page-hero">
+          <div class="container">
+            <div style="max-width: 820px;">
+              <span class="bilingual-badge">
+                <span class="hi">हमारी टीम और 25+ वर्षों की प्रतिष्ठा</span>
+                <span class="en">Our Leadership & Technical Heritage</span>
+              </span>
+              <h1 class="bilingual-title" style="margin-bottom:14px;">
+                <span class="hi-primary">कंपनी प्रोफ़ाइल एवं नेतृत्व</span>
+                <span class="en-sub">Company Leadership Profile — SK Electricals</span>
+              </h1>
+              <p style="color:var(--text-secondary); font-size:1.12rem; line-height:1.7;">
+                SK Electricals के संस्थापक श्री शैलेंद्र गुप्ता एवं मुख्य सर्विस इंजीनियर आदित्य चौधरी (गोलू) — सिसवा बाज़ार और संपूर्ण महराजगंज जिले में तकनीकी दक्षता, ईमानदारी और त्वरित समाधान की अटूट पहचान।
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
+        <!-- LEADERSHIP CARDS -->
+        <section class="section">
+            <div class="container" style="display:flex; flex-direction:column; gap:40px;">
+
+                <!-- Leader 1: Shailendra Gupta -->
+                <div class="owner-card-section animate">
+                    <div class="owner-grid">
+                        <div class="owner-photo-box">
+                            <img src="image/shailendra_gupta.webp" alt="श्री शैलेंद्र गुप्ता, Owner, SK Electricals">
+                            <div class="owner-badge">संस्थापक एवं स्वामी (Founder)</div>
+                        </div>
+
+                        <div class="owner-info">
+                            <h3>श्री शैलेंद्र गुप्ता</h3>
+                            <div class="owner-title">Owner & Master Technician, SK Electricals</div>
+
+                            <p style="color:#334155; font-size:1.05rem; line-height:1.7; margin-bottom:18px;">
+                                श्री शैलेंद्र गुप्ता जी ने <strong>सन 2000</strong> में SK Electricals की स्थापना की थी। विद्युत उपकरणों के इंस्टालेशन, रिपेयर और मेंटेनेंस के क्षेत्र में उनके 25+ वर्षों के व्यावहारिक अनुभव और गहरे तकनीकी ज्ञान ने इस प्रतिष्ठान को एक मजबूत आधार दिया।
+                            </p>
+
+                            <p style="color:#64748b; font-size:0.95rem; line-height:1.6;">
+                                उनके प्रभावशाली नेतृत्व, समर्पण और निरंतर मेहनत के कारण SK Electricals आज पूरे महराजगंज जिले में विश्वास और सम्मान का प्रतीक बन चुका है। शैलेंद्र जी का मूल मंत्र है — हर ग्राहक को सुरक्षित, वाजिब दाम पर और उच्च गुणवत्ता वाली तकनीक मिले।
+                            </p>
+
+                            <div style="margin-top:20px;">
+                                <a href="tel:+919935743755" class="btn btn-amber btn-sm">📞 शैलेंद्र जी से सीधे बात करें</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leader 2: Aditya Chaudhary (Golu) -->
+                <div class="owner-card-section animate" style="border-color: rgba(16, 185, 129, 0.3);">
+                    <div class="owner-grid">
+                        <div class="owner-photo-box">
+                            <img src="image/aditya.webp" alt="आदित्य चौधरी (गोलू), Service Engineer, SK Electricals" style="border-color:var(--emerald-live); box-shadow:0 12px 36px rgba(16,185,129,0.3);">
+                            <div class="owner-badge" style="border-color:var(--emerald-live); color:var(--emerald-live); background:rgba(16,185,129,0.12);">चीफ सर्विस इंजीनियर</div>
+                        </div>
+
+                        <div class="owner-info">
+                            <h3>आदित्य चौधरी (गोलू)</h3>
+                            <div class="owner-title" style="color:var(--emerald-live);">Service Engineer, SK Electricals</div>
+
+                            <p style="color:#334155; font-size:1.05rem; line-height:1.7; margin-bottom:18px;">
+                                आदित्य चौधरी जी SK Electricals के अत्यंत महत्वपूर्ण और कुशल सर्विस इंजीनियर हैं। वे इनवर्टर मदरबोर्ड, स्टेबलाइजर फॉल्ट डायग्नोस्टिक्स और फील्ड इंस्टालेशन में विशेष रूप से पारंगत हैं।
+                            </p>
+
+                            <p style="color:#64748b; font-size:0.95rem; line-height:1.6;">
+                                उनकी ईमानदारी, त्वरित कार्यशैली और ग्राहकों के प्रति विनम्र व्यवहार ने उन्हें स्थानीय लोगों का चहेता बनाया है। साइट विजिट से लेकर चिप-लेवल टेस्टिंग तक, आदित्य जी हर तकनीकी चुनौती का सटीक समाधान उपलब्ध कराते हैं।
+                            </p>
+
+                            <div style="margin-top:20px;">
+                                <a href="https://wa.me/919935743755?text=Hello%20Aditya%20Ji%2C%20I%20need%20service%20support." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">💬 व्हाट्सएप पर संपर्क करें</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 
-    <footer class="site-footer small">
-      <div class="container footer-inner">
-        <div>
-          <strong>SK Electricals</strong>
-          <address>Shree Ram Janki Mandir Road, Siswa Bazar, Maharajganj</address>
-          <p>Phone: <a href="tel:+919935743755">+91 99357 43755</a></p>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>SK Electricals</h4>
+            <p>Trusted electronics & power backup center in Siswa Bazar, Maharajganj (UP). Inverters, tubular batteries, stabilizers, weighing scales & diagnostics.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">All Products</a></li>
+              <li><a href="inverter.html">Inverters</a></li>
+              <li><a href="battery.html">Batteries</a></li>
+              <li><a href="stabilizer.html">Stabilizers</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="services.html">Motherboard Repair</a></li>
+              <li><a href="weighing-scale.html">Scale Calibration</a></li>
+              <li><a href="service-areas.html">Coverage Areas</a></li>
+              <li><a href="contact.html">Store Location</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Shop</h4>
+            <div class="footer-contact-details">
+              <div class="footer-contact-item">
+                <span>📍</span>
+                <span>Shree Ram Janki Mandir Road, Siswa Bazar, Maharajganj (UP)</span>
+              </div>
+              <div class="footer-contact-item">
+                <span>📞</span>
+                <span><a href="tel:+919935743755">+91 99357 43755</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div>© 2026 SK Electricals — Siswa Bazar, Maharajganj. All Rights Reserved.</div>
         </div>
       </div>
     </footer>
+
+    <!-- FLOATING WHATSAPP CTA -->
+    <a href="https://wa.me/919935743755" class="whatsapp-float-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12.031 2C6.51 2 2.031 6.47 2.031 11.979c0 1.98.583 3.823 1.6 5.375L2 22l4.812-1.573a9.92 9.92 0 0 0 5.219 1.485c5.521 0 10-4.47 10-9.979S17.552 2 12.031 2zm0 18.063c-1.635 0-3.156-.479-4.448-1.292l-.312-.2-2.927.958.979-2.854-.208-.333a8.03 8.03 0 0 1-1.26-4.365c0-4.458 3.635-8.083 8.167-8.083 4.521 0 8.167 3.625 8.167 8.083 0 4.458-3.646 8.083-8.167 8.083z"/>
+      </svg>
+    </a>
+
+    <!-- MOBILE STICKY ACTION DOCK -->
+    <nav class="mobile-action-dock" aria-label="Mobile quick actions">
+      <a href="tel:+919935743755" class="dock-btn highlight">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <span>कॉल</span>
+      </a>
+      <a href="https://wa.me/919935743755" class="dock-btn whatsapp-dock" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" style="stroke:none; fill:currentColor;"><path d="M12.031 2C6.51 2 2.031 6.47 2.031 11.979c0 1.98.583 3.823 1.6 5.375L2 22l4.812-1.573a9.92 9.92 0 0 0 5.219 1.485c5.521 0 10-4.47 10-9.979S17.552 2 12.031 2zm0 18.063c-1.635 0-3.156-.479-4.448-1.292l-.312-.2-2.927.958.979-2.854-.208-.333a8.03 8.03 0 0 1-1.26-4.365c0-4.458 3.635-8.083 8.167-8.083 4.521 0 8.167 3.625 8.167 8.083 0 4.458-3.646 8.083-8.167 8.083z"/></svg>
+        <span>व्हाट्सएप</span>
+      </a>
+      <a href="company-profile.html" class="dock-btn">
+        <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <span>टीम</span>
+      </a>
+      <a href="https://maps.google.com/?q=SK+Electricals+Siswa+Bazar+Maharajganj" target="_blank" rel="noopener" class="dock-btn">
+        <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span>नक्शा</span>
+      </a>
+    </nav>
+
     <script src="js/main.js" defer></script>
   </body>
 </html>

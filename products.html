@@ -2,182 +2,398 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Products — SK Electricals | Inverters, Stabilizers & Spare Parts in Maharajganj</title>
-    <meta name="description" content="Products at SK Electricals: Inverters, stabilizers, weighing scales, PCB spare parts and small appliances. Visit our shop in Siswa Bazar, Maharajganj for stock, pricing and installation." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Products Catalogue — Inverters, Batteries, Stabilizers & Scales | SK Electricals</title>
+    <meta name="description" content="Explore products at SK Electricals: Luminous inverters, Exide tubular batteries, V-Guard stabilizers, calibrated weighing scales, spare parts and solar panels in Siswa Bazar, Maharajganj." />
     <meta name="keywords" content="inverter dealer Maharajganj, stabilizer dealer Siswa Bazar, weighing scale Maharajganj, electronic spare parts Maharajganj, Luminous inverter, Exide battery, V-Guard stabilizer, solar panels, PCB components" />
     <link rel="canonical" href="https://maharajganjelectronics.site/products.html" />
-    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts & Preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="site-header">
+
+    <!-- TOP NOTIFICATION BAR -->
+    <aside class="topbar" aria-label="Quick store notice and contact">
+      <div class="container topbar-inner">
+        <div class="top-status">
+          <span class="status-dot"></span>
+          <span>Open Now: 9:30 AM – 8:00 PM (Mon–Sat)</span>
+        </div>
+        <div class="top-location">
+          📍 Shree Ram Janki Mandir Road, Siswa Bazar, Maharajganj
+        </div>
+        <div class="top-actions">
+          <div class="top-contact">
+            <a href="tel:+919935743755">📞 +91 99357 43755</a>
+            <span style="opacity:0.4;">|</span>
+            <a href="tel:+918737000085">+91 87370 00085</a>
+          </div>
+          <button class="lang-btn" aria-label="Toggle Language" title="हिन्दी में देखें">हिन्दी</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- STICKY SITE HEADER -->
+    <header class="site-header" id="site-header">
       <div class="container header-inner">
-        <h1 class="brand"><a href="index.html" style="text-decoration:none; color:inherit;" data-i18n="brand">SK Electricals</a></h1>
-        <nav class="main-nav" aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="company-profile.html">Company Profile</a>
-            <a href="products.html">Products</a>
-            <a href="services.html">Services</a>
-            <a href="service-areas.html">Service Areas</a>
-            <a href="faq.html">FAQ</a>
-            <a href="contact.html">Contact</a>
-            <a href="tel:+919935743755" class="btn-call">Call Now</a>
+        <a href="index.html" class="brand-link" aria-label="SK Electricals Home">
+          <div class="brand-emblem">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="brand-info">
+            <span class="brand-title">SK ELECTRICALS</span>
+            <span class="brand-sub">Siswa Bazar · Maharajganj</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="inverter.html" class="nav-link">Inverters</a>
+          <a href="battery.html" class="nav-link">Batteries</a>
+          <a href="stabilizer.html" class="nav-link">Stabilizers</a>
+          <a href="weighing-scale.html" class="nav-link">Weighing Scales</a>
+          <a href="services.html" class="nav-link">Repairs & Services</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="contact.html" class="nav-link">Contact</a>
         </nav>
+
         <div class="header-actions">
-          <button class="lang-toggle" data-lang="hi" aria-label="Switch to Hindi">हिन्दी</button>
-          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <a href="tel:+919935743755" class="btn-header-call" aria-label="Call store owner">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>Call Store</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Open mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </div>
     </header>
 
-    <main class="container">
-      <h2>Products</h2>
+    <!-- MOBILE DRAWER & OVERLAY -->
+    <div class="mobile-drawer-overlay"></div>
+    <div class="mobile-drawer">
+      <div class="drawer-header">
+        <div class="brand-info">
+          <span class="brand-title" style="color:#ffffff;">SK ELECTRICALS</span>
+          <span class="brand-sub" style="color:var(--cyan-electric);">Siswa Bazar, Maharajganj</span>
+        </div>
+        <button class="drawer-close" aria-label="Close menu">&times;</button>
+      </div>
 
-      <section id="inverters" class="animate" data-anim="fade-up">
-        <h3>Inverters (इन्वर्टर)</h3>
-        <div class="product-row">
-          <img src="image/luminousinverter.webp" alt="Luminous inverter" loading="lazy" decoding="async" width="900" height="600">
-          <div>
-            <p>We carry pure-sine and modified-sine inverters from top brands — suitable for home UPS, shops, and small businesses. Installation and maintenance available in Maharajganj.</p>
-            <ul>
-              <li>Home inverters (600W – 5kW)</li>
-              <li>Commercial inverters</li>
-              <li>Inverter motherboards & spare parts</li>
-            </ul>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/inverterimagesmall.webp" alt="Inverter models" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>We also stock inverter + battery combos and accessories for immediate installation.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/exide_sk electricals.webp" alt="Exide inverter battery at SK Electricals shop in Siswa Bazar" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>We are an authorized dealer for Exide batteries in Maharajganj, offering a full range of tubular and flat plate batteries with warranty.</p>
+      <nav class="drawer-nav">
+        <a href="index.html" class="drawer-link">Home</a>
+        <a href="inverter.html" class="drawer-link">Inverters & UPS</a>
+        <a href="battery.html" class="drawer-link">Tubular Batteries</a>
+        <a href="stabilizer.html" class="drawer-link">Voltage Stabilizers</a>
+        <a href="weighing-scale.html" class="drawer-link">Weighing Scales (कांटा)</a>
+        <a href="services.html" class="drawer-link">Repair & Calibration</a>
+        <a href="about.html" class="drawer-link">About Store</a>
+        <a href="contact.html" class="drawer-link">Shop Location</a>
+      </nav>
+
+      <div class="drawer-footer">
+        <a href="tel:+919935743755" class="btn btn-amber btn-sm">📞 Call +91 99357 43755</a>
+        <a href="https://wa.me/919935743755" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">💬 WhatsApp Store</a>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- BANNER (LIGHT THEME & BILINGUAL) -->
+      <section class="page-hero">
+        <div class="container">
+          <div style="max-width: 820px;">
+            <div class="badge badge-electric" style="margin-bottom:12px;">⚡ अधिकृत ब्रांड उत्पाद | Complete Product Catalog</div>
+            <h1>इलेक्ट्रिकल उत्पाद व उपकरण <span class="hero-highlight">(Products & Inventory)</span></h1>
+            <p class="lead">
+              ल्यूमिनस, एक्साइड, वी-गार्ड व ईस्टमैन के अधिकृत डीलर। पावर बैकअप सिस्टम, ऑटोमैटिक स्टेबलाइजर, डिजिटल कांटा मशीन और असली स्पेयर पार्ट्स। सभी उत्पादों पर कंपनी वारंटी व पक्का बिल।
+            </p>
+            <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:16px;">
+              <a href="tel:+919935743755" class="btn btn-amber btn-sm">📞 रेट व स्टॉक पूछें: +91 99357 43755</a>
+              <a href="https://wa.me/919935743755?text=नमस्ते%20SK%20Electricals%2C%20मुझे%20उत्पादों%20का%20रेट%20और%20उपलब्धता%20जाननी%20है।" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">💬 व्हाट्सएप पूछताछ</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="stabilizers" class="animate" data-anim="fade-up">
-        <h3>Stabilizers (स्टेबलाइजर)</h3>
-        <div class="product-row">
-          <img src="image/v-guard-ve-500-voltage-stabilizer-white.webp" alt="V-Guard stabilizer" loading="lazy" decoding="async" width="900" height="600">
-          <div>
-            <p>Domestic and industrial voltage stabilizers, AVRs and stabilizer circuit boards. Servicing and board repair available in Maharajganj and Siswa Bazar.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/voltage%20stablizer.webp" alt="Voltage stabilizer models" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>We repair and replace stabilizer components and provide installation support for homes and shops.</p>
+      <!-- PRODUCTS CATALOGUE -->
+      <section class="section">
+        <div class="container">
+          <div class="product-cards-grid">
+
+            <!-- Card 1: Inverters -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-electric">Pure Sine Wave</span>
+                <img src="image/luminousinverter.webp" alt="Luminous Inverter" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>Luminous Inverters & Home UPS</h4>
+                <p>Pure sine wave power for household appliances, shops, and offices. Zero humming noise, smart overload cut-off, and low-voltage charging support.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">600W to 5kVA</span>
+                  <span class="feat-pill">Eco Volt / Zelio</span>
+                  <span class="feat-pill">2 Years Warranty</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="inverter.html" class="btn btn-outline btn-sm">View Models</a>
+                  <a href="https://wa.me/919935743755?text=Hello%20SK%20Electricals%2C%20what%20is%20the%20price%20for%20Luminous%20Inverters%3F" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Inquire Price</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2: Batteries -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-amber">Tall Tubular</span>
+                <img src="image/exide_sk electricals.webp" alt="Exide Battery at SK Electricals" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>Exide Inva Tubular Batteries</h4>
+                <p>Engineered for long life under frequent power cuts and high ambient heat in Maharajganj. Thick positive plates and high electrolyte reserve.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">150Ah / 180Ah / 200Ah</span>
+                  <span class="feat-pill">36 - 60 Mo. Warranty</span>
+                  <span class="feat-pill">Exide Authorized</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="battery.html" class="btn btn-outline btn-sm">Battery Specs</a>
+                  <a href="https://wa.me/919935743755?text=Hello%2C%20please%20send%20Exide%20Tubular%20Battery%20rates." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Inquire Price</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3: Inverter Battery Combo -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-emerald">Ready Package</span>
+                <img src="image/inverter%20battery%20combo.webp" alt="Inverter battery combo package" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>Inverter + Battery Combo Sets</h4>
+                <p>Ready-to-install packages complete with heavy gauge copper battery cables, trolley stand, and on-site setup anywhere in Siswa Bazar.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">Inverter + Battery + Trolley</span>
+                  <span class="feat-pill">Free Wiring Check</span>
+                  <span class="feat-pill">Bundle Discount</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="inverter.html" class="btn btn-outline btn-sm">Details</a>
+                  <a href="https://wa.me/919935743755?text=Hello%20SK%20Electricals%2C%20what%20are%20the%20combo%20inverter%20plus%20battery%20deals%3F" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Get Combo Price</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4: Voltage Stabilizers -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-electric">AC & Fridge</span>
+                <img src="image/v-guard-ve-500-voltage-stabilizer-white.webp" alt="V-Guard Stabilizer" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>V-Guard Automatic Stabilizers</h4>
+                <p>Protect valuable appliances against low voltage (90V) and sudden high voltage surges. Models available for 1.5 Ton AC, refrigerators, and TVs.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">AC / Refrigerator</span>
+                  <span class="feat-pill">Mainline 3kVA - 5kVA</span>
+                  <span class="feat-pill">3 Year Warranty</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="stabilizer.html" class="btn btn-outline btn-sm">Explore Stabilizers</a>
+                  <a href="https://wa.me/919935743755?text=Hello%2C%20I%20need%20price%20of%20V-Guard%20Stabilizer%20at%20SK%20Electricals." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Inquire Price</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 5: Weighing Scales -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-amber">Govt Calibrated</span>
+                <img src="image/weighingscale3.webp" alt="Digital weighing machine" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>Digital Electronic Weighing Scales</h4>
+                <p>Commercial counter scales, platform taraju (50kg, 100kg, 200kg), and high precision gram scales with government stamping verification.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">30kg / 50kg / 100kg</span>
+                  <span class="feat-pill">Dual Red LED Display</span>
+                  <span class="feat-pill">Rechargeable Battery</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="weighing-scale.html" class="btn btn-outline btn-sm">All Scales</a>
+                  <a href="https://wa.me/919935743755?text=Hello%2C%20I%20want%20to%20buy%20Digital%20Taraju%20in%20Siswa%20Bazar." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Inquire Price</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 6: Electronic Spares & PCB Cards -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-emerald">In-Stock</span>
+                <img src="image/spare part1.webp" alt="Electronic spare parts" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>Inverter Motherboards & Spare Cards</h4>
+                <p>Original replacement circuit boards, micro-controller ICs, heavy duty MOSFETs, transformers, and relays for electrical technicians and repair shops.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">Original Luminous PCBs</span>
+                  <span class="feat-pill">Stabilizer Relays</span>
+                  <span class="feat-pill">Direct Counter Pickup</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="services.html" class="btn btn-outline btn-sm">Repair Services</a>
+                  <a href="https://wa.me/919935743755?text=Hi%2C%20do%20you%20have%20spare%20inverter%20circuit%20boards%3F" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Check Spares</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 7: Solar Panels -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-electric">Solar Energy</span>
+                <img src="image/solarmain.webp" alt="Solar Panels Maharajganj" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>Solar Panels & Hybrid Solar Inverters</h4>
+                <p>Mono PERC high efficiency solar panels, solar charge controllers, and hybrid PCUs for homes and shops in Maharajganj and Kushinagar.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">Mono PERC Modules</span>
+                  <span class="feat-pill">Hybrid Solar PCU</span>
+                  <span class="feat-pill">On-Site Setup</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="solar-panels-maharajganj-kushinagar.html" class="btn btn-outline btn-sm">Solar Page</a>
+                  <a href="https://wa.me/919935743755?text=Hello%2C%20I%20want%20information%20on%20Solar%20Panels%20setup." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Solar Quote</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 8: Small Home Electricals -->
+            <article class="product-item-card animate">
+              <div class="prod-thumb-wrapper">
+                <span class="prod-badge-corner badge-amber">Home Essentials</span>
+                <img src="image/ledbulbbigsize.webp" alt="LED Bulbs and Electricals" loading="lazy">
+              </div>
+              <div class="prod-content">
+                <h4>LED Bulbs & Household Electricals</h4>
+                <p>High lumen LED lights, heavy duty copper wire, extension boards, multi-plugs, mobile chargers, iron heating elements, and mixer spares.</p>
+                <div class="prod-features-pills">
+                  <span class="feat-pill">Energy Saving LEDs</span>
+                  <span class="feat-pill">ISI Marked Accessories</span>
+                  <span class="feat-pill">Over-the-Counter</span>
+                </div>
+                <div class="prod-actions-row">
+                  <a href="contact.html" class="btn btn-outline btn-sm">Visit Store</a>
+                  <a href="tel:+919935743755" class="btn btn-primary btn-sm">Call Shop</a>
+                </div>
+              </div>
+            </article>
+
           </div>
         </div>
       </section>
 
-      <section id="weighing" class="animate" data-anim="fade-up">
-        <h3>Weighing Machines (कांटा / तराजू)</h3>
-        <div class="product-row">
-          <img src="image/weighingscale3.webp" alt="Weighing scale - digital" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>Kitchen scales, shop scales, and industrial weighing solutions. We provide calibration and repair to ensure accurate measurements.</p>
-            <p>Learn more about our <a href="weighing-scale-siswa-bazar.html">weighing scales and calibration services in Siswa Bazar</a>.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/100%20kg%20weight%20scale.webp" alt="100 kg weight scale" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>Large capacity scales and calibration services for businesses in Maharajganj.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/80kg%20weight%20scale.webp" alt="80 kg weight scale" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>80 kg and 30 kg scales for small shops and kitchens — we sell and calibrate these models.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/30kg%20weight%20scale.webp" alt="30 kg weight scale" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>Compact 30 kg scales with high accuracy and calibration support.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/weightscalepacked.webp" alt="Packaged weighing scale" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>We supply packaged and calibrated scales ready for use in shops and warehouses.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/weighingscale.webp" alt="Weighing machine models" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>Various weighing machine models available — digital, mechanical and shop scales. Calibration services offered.</p>
+      <!-- CONTACT CTA STRIP (LIGHT THEME) -->
+      <section class="section section-bg-alt">
+        <div class="container">
+          <div class="cta-banner-light animate">
+            <h2>किसी विशेष मॉडल या थोक रेट की आवश्यकता है?</h2>
+            <p>दुकान पर रियल-टाइम स्टॉक, मॉडल उपलब्धता या विशेष छूट जानने के लिए प्रोप्राइटर शैलेन्द्र गुप्ता जी से सीधे बात करें।</p>
+            <div style="display:flex; justify-content:center; gap:14px; flex-wrap:wrap;">
+              <a href="tel:+919935743755" class="btn btn-amber btn-lg">📞 फोन करें: +91 99357 43755</a>
+              <a href="https://wa.me/919935743755?text=नमस्ते%20SK%20Electricals%2C%20मुझे%20उत्पाद%20का%20रेट%20जानना%20है।" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">💬 व्हाट्सएप पूछताछ</a>
+            </div>
           </div>
         </div>
       </section>
-
-      <section id="components" class="animate" data-anim="fade-up">
-        <h3>Electronic Components & Spare Parts (इलेक्ट्रॉनिक पार्ट्स)</h3>
-        <div class="product-row">
-          <img src="image/spare%20part1.webp" alt="Electronic spare parts and PCB cards" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>PCB cards, inverter motherboards, stabilizer boards, fuses, capacitors, and other spare parts for repairs. We also stock commonly used components for local technicians.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="homeappliances" class="animate" data-anim="fade-up">
-        <h3>Small Home Appliances (घरेलू उपकरण)</h3>
-        <div class="product-row">
-          <img src="image/ledbulbbigsize.webp" alt="LED bulbs and small appliances" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>Mixers, irons, LED bulbs, chargers, adapters and essential household electrical items available for immediate purchase.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="solar" class="animate" data-anim="fade-up">
-        <h3>Solar & Installations (सोलर पैनल)</h3>
-        <div class="product-row">
-          <img src="image/solarmain.webp" alt="Solar panels" loading="lazy" decoding="async" width="900" height="600">
-          <div>
-            <p>Solar panels, inverters and professional installation services for homes and shops in Maharajganj.</p>
-            <p>Explore our <a href="solar-panels-maharajganj-kushinagar.html">solar solutions for Maharajganj and Kushinagar</a>.</p>
-          </div>
-        </div>
-        <div class="product-row">
-          <img src="image/solarinatallation.webp" alt="Solar installation work" loading="lazy" decoding="async" width="900" height="600">
-          <div>
-            <p>We provide on-site solar installation and maintenance services.</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Extra inverter items (battery combos) -->
-      <section id="inverter-combos" class="animate" data-anim="fade-up">
-        <h3>Inverter + Battery Combos</h3>
-        <div class="product-row">
-          <img src="image/inverter%20battery%20combo.webp" alt="Inverter battery combo" loading="lazy" decoding="async" width="700" height="420">
-          <div>
-            <p>Ready-to-go inverter + battery combos for uninterrupted power at home and small shops.</p>
-          </div>
-        </div>
-      </section>
-
-      <a class="btn" href="contact.html">Check stock & pricing</a>
     </main>
 
-    <footer class="site-footer small">
-      <div class="container footer-inner">
-        <div>
-          <strong>SK Electricals</strong>
-          <address>Shree Ram Janki Mandir Road, Siswa Bazar, Maharajganj</address>
-          <p>Phone: <a href="tel:+919935743755">+91 99357 43755</a></p>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>SK Electricals (एसके इलेक्ट्रिकल्स)</h4>
+            <p>Trusted electronics & power backup store in Siswa Bazar, Maharajganj (UP). Inverters, tubular batteries, stabilizers, weighing scales & diagnostics.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">All Products</a></li>
+              <li><a href="inverter.html">Inverters</a></li>
+              <li><a href="battery.html">Batteries</a></li>
+              <li><a href="stabilizer.html">Stabilizers</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="services.html">Motherboard Repair</a></li>
+              <li><a href="weighing-scale.html">Scale Calibration</a></li>
+              <li><a href="service-areas.html">Coverage Areas</a></li>
+              <li><a href="contact.html">Store Location</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Shop</h4>
+            <div class="footer-contact-details">
+              <div class="footer-contact-item">
+                <span>📍</span>
+                <span>Shree Ram Janki Mandir Road, Siswa Bazar, Maharajganj (UP)</span>
+              </div>
+              <div class="footer-contact-item">
+                <span>📞</span>
+                <span><a href="tel:+919935743755">+91 99357 43755</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div>© 2026 SK Electricals — Siswa Bazar, Maharajganj. All Rights Reserved.</div>
         </div>
       </div>
     </footer>
+
+    <!-- FLOATING WHATSAPP CTA -->
+    <a href="https://wa.me/919935743755" class="whatsapp-float-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12.031 2C6.51 2 2.031 6.47 2.031 11.979c0 1.98.583 3.823 1.6 5.375L2 22l4.812-1.573a9.92 9.92 0 0 0 5.219 1.485c5.521 0 10-4.47 10-9.979S17.552 2 12.031 2zm0 18.063c-1.635 0-3.156-.479-4.448-1.292l-.312-.2-2.927.958.979-2.854-.208-.333a8.03 8.03 0 0 1-1.26-4.365c0-4.458 3.635-8.083 8.167-8.083 4.521 0 8.167 3.625 8.167 8.083 0 4.458-3.646 8.083-8.167 8.083z"/>
+      </svg>
+    </a>
+
+    <!-- MOBILE STICKY ACTION DOCK -->
+    <nav class="mobile-action-dock" aria-label="Mobile quick actions">
+      <a href="tel:+919935743755" class="dock-btn highlight">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <span>Call</span>
+      </a>
+      <a href="https://wa.me/919935743755?text=Hello%20SK%20Electricals%2C%20I%20need%20product%20details." class="dock-btn whatsapp-dock" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" style="stroke:none; fill:currentColor;"><path d="M12.031 2C6.51 2 2.031 6.47 2.031 11.979c0 1.98.583 3.823 1.6 5.375L2 22l4.812-1.573a9.92 9.92 0 0 0 5.219 1.485c5.521 0 10-4.47 10-9.979S17.552 2 12.031 2zm0 18.063c-1.635 0-3.156-.479-4.448-1.292l-.312-.2-2.927.958.979-2.854-.208-.333a8.03 8.03 0 0 1-1.26-4.365c0-4.458 3.635-8.083 8.167-8.083 4.521 0 8.167 3.625 8.167 8.083 0 4.458-3.646 8.083-8.167 8.083z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <a href="products.html" class="dock-btn">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        <span>Products</span>
+      </a>
+      <a href="https://maps.google.com/?q=SK+Electricals+Siswa+Bazar+Maharajganj" target="_blank" rel="noopener" class="dock-btn">
+        <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span>Map</span>
+      </a>
+    </nav>
+
     <script src="js/main.js" defer></script>
   </body>
 </html>
